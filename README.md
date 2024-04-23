@@ -6,6 +6,8 @@ The first version of the Solar Jet Hunter catalogue is publicly available here i
 
 A paper describing how the project was run and the catalogue was constructed is available here.
 
+To use the notebooks presented here, please download the catalogue(s) in the `\export` directory.
+
 ### Versions of the catalogue
 
 ## Requirements
@@ -16,5 +18,9 @@ A paper describing how the project was run and the catalogue was constructed is 
 This notebook presents how to open the JSON and the CSV catalogue and access the jet properties.
 
 ## Examples
+
+### Download the data for one jet in the catalogue
+This notebook presents how to download cutouts of the AIA data for a selected jet.
+
 ### Plot all boxes of a jet
-This notebook show how to use the JSON file to plot the boxes derived from each subjects that belong to a jet, as well as the average box for the jet.
+This notebook shows how to use the JSON file to plot the boxes derived from each subjects that belong to a jet, as well as the average box for the jet.
