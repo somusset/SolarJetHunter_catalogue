@@ -1,0 +1,1 @@
+In this directory create a directory called 'sjh_cutouts'. It will be used to download data (see corresponding notebook)

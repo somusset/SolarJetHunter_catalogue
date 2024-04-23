@@ -1,0 +1,1 @@
+Place in this directory the catalogue files downloaded (JSON or CSV files)
