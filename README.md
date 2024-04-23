@@ -6,7 +6,7 @@ The first version of the Solar Jet Hunter catalogue is publicly available here i
 
 A paper describing how the project was run and the catalogue was constructed is available here.
 
-To use the notebooks presented here, please download the catalogue(s) in the `\export` directory.
+To use the notebooks presented here, please download the catalogue(s) in the `\export` directory. It can be downloaded from (here)[https://conservancy.umn.edu/handle/11299/257209]
 
 ### Versions of the catalogue
 
