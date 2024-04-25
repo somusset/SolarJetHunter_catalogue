@@ -60,7 +60,7 @@ class Jet_box:
         center_coordinates[1] = self.base[1] + self.height/2.*np.sin(self.angle.radian) 
         return center_coordinates
     
-    def corners(self):
+    def corners(self, no_unit=False):
         x1 = self.base[0] - 0.5*self.width*np.sin(self.angle.radian)
         x2 = self.base[0] + 0.5*self.width*np.sin(self.angle.radian)
         y1 = self.base[1] + 0.5*self.width*np.cos(self.angle.radian)
@@ -73,7 +73,12 @@ class Jet_box:
         y3 = y1+dy
         x4 = x2+dx
         y4 = y2+dy
-        return [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
+        if no_unit:
+            result = [(x1.value,y1.value), (x2.value,y2.value), (x3.value,y3.value), (x4.value,y4.value)]
+        else:
+            result = [[x1,y1],[x2,y2],[x3,y3],[x4,y4]]
+            #result = [(x1,y1), (x2,y2), (x3,y3), (x4,y4)]
+        return result
     
     def lines_to_plot(self):
         corners = self.corners()
