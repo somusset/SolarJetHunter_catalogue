@@ -32,5 +32,5 @@ The notebook [SolarJetHunter_download_cutouts](https://github.com/somusset/Solar
 ### Plot all boxes of a jet
 The notebook [SolarJetHunter_plot_all_boxes_on_jet](https://github.com/somusset/SolarJetHunter_catalogue/blob/main/SolarJetHunter_plot_all_boxes_on_jet.ipynb) shows how to use the JSON file to plot the boxes derived from each subjects that belong to a jet, as well as the average box for the jet. It requires that some solar data has already been downloaded: see [this section](https://github.com/somusset/SolarJetHunter_catalogue/tree/main?tab=readme-ov-file#download-the-data-for-one-jet-in-the-catalogue).
 
-### 
+### Plot all jets associated with a AIA cutout image
 The notebook [SolarJetHunter_find_all_jets_associated_to_one_aiacutout](https://github.com/somusset/SolarJetHunter_catalogue/blob/main/SolarJetHunter_find_all_jets_associated_to_one_aiacutout.ipynb) addresses the fact that in some case, for a given piece of data, more than one jet is present. Therefore this notebook presents how to find all the jets reported for a given AIA cutout by reading the catalogue, and how to display their associated boxes on the AIA cutout image. This requires that some solar data has already been downloaded: see [this section](https://github.com/somusset/SolarJetHunter_catalogue/tree/main?tab=readme-ov-file#download-the-data-for-one-jet-in-the-catalogue).
